@@ -15,6 +15,7 @@ function Skill({ directionLeft }: Props) {
         }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1 }}
+        viewport={{ once: true }}
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
         className="rounded-full w-24 h-24 object-contain border border-gray-500 xl:w-28 xl:h-28 filter group-hover:grayscale 
         transition duration:300 ease-in-out "
