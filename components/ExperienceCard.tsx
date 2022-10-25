@@ -27,23 +27,28 @@ function ExperienceCard({}: Props) {
 
         <div className="flex space-x-2 my-2">
           <img
-            className="h-10 w-10 "
-            src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+            className="h-10 w-10 object-contain"
+            src="https://i.imgur.com/zum9Pgc.png"
             alt=""
           />
           <img
-            className="h-10 w-10 "
-            src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+            className="h-10 w-10 object-contain"
+            src="https://i.imgur.com/jloPLUW.png"
             alt=""
           />
           <img
-            className="h-10 w-10 "
+            className="h-10 w-10 object-contain"
             src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+            alt=""
+          />
+           <img
+            className="h-10 w-10 object-contain"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
             alt=""
           />
         </div>
 
-        <p className="uppercase text-gray-300">Started at .. - Ended..</p>
+        <p className="uppercase text-gray-300">Started at 2021 - Ended 2022</p>
         <ul className="list-disc space-y-4 ml-5 text-lg">
           <li>Summary points</li>
           <li>Summary points</li>

@@ -16,7 +16,7 @@ function Experience({}: Props) {
       scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80">
         <ExperienceCard/>
         <ExperienceCard/>
-        <ExperienceCard/>
+      
        
       </div>
     </div>
