@@ -46,13 +46,19 @@ function ExperienceCard({}: Props) {
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
             alt=""
           />
+          <img
+            className="h-10 w-10 object-contain"
+            src="https://i.imgur.com/2eO0lLF.jpg"
+            alt=""
+          />
+          
         </div>
 
         <p className="uppercase text-gray-300">Started at 2021 - Ended 2022</p>
         <ul className="list-disc space-y-4 ml-5 text-lg">
-          <li>Summary points</li>
-          <li>Summary points</li>
-          <li>Summary points</li>
+          <li>Learned web development</li>
+          <li>Worked on several projects</li>
+          <li>Enhanced my skills as a developer</li>
          
         </ul>
       </div>
